@@ -48,13 +48,13 @@ const TopBar = async ({ title }: { title: string }) => {
         )}
         {session?.user.role !== "ADMIN" && (
           <div className="relative group flex items-center mr-2">
-            <Image
+{/*             <Image
               src={"/svgs/coin.svg"}
               width={5}
               height={5}
               alt="coin"
               className="w-6 h-6 m-2"
-            />
+            /> */}
             Wallets
             <div className="absolute hidden  group-hover:flex flex-col bg-white shadow-md p-2 rounded-lg top-10 right-[10px] border transition-opacity duration-300 ease-in-out">
               <p className="font-semibold text-center">Wallets</p>
